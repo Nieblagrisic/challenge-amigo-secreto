@@ -1,5 +1,5 @@
 :root {
-    --color-primary: #e3f11d;
+    --color-primary: #d7fe3af6;
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
     --color-button: #fe652b;
@@ -150,11 +150,13 @@ ul {
     padding: 10px 40px;
     color: var(--color-white);
     background-color: var(--color-button);
-    font-size: 16px;
+    font-size: 18px;
+    border-radius: 15px;
+    margin-top: 18px;
 }
 
 .button-draw img {
-    margin-right: 40px;
+    margin-right: 40px; 
 }
 
 .button-draw:hover {
